@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color-hd-ft: #1f2937;
+    --main-color-text: #f9faf8;
+    --second-color-text: #e5e7eb;
+    --bg-color-btn: #3882f6;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
