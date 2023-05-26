@@ -8,61 +8,72 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="nav">
+    <nav class="nav dark">
         <div class="logo">
-            Header Logo
+            <3 Cats
         </div>
-        <div class="menu">
-            <ul>
-                <li>header link one</li>
-                <li>header link one</li>
-                <li>header link one</li>
-            </ul>
-        </div>
+        
+        <ul class="menu">
+            <li><a href="#facts">Cat Facts</a></li>
+            <li><a href="#quote">Quote</a></li>
+            <li><a href="#adopt">Adopt a Cat</a></li>
+        </ul>
+        
     </nav>
-    <div class="container">
+
+    <div class="container-row dark">
         <div class="title">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext.</p>
-            <button>Sign up</button>
+            <h1>Cats are awesome.</h1>
+            <p>Keep scrolling for cat facts or even better, click on the button below to adopt a kitty.</p>
+            <button class="blue border-blue">Sign up</button>
         </div>
-        <div class="title">
+        <div class="title right">
             <img src="./img/cat-img.jpg" alt="Image of a kitten">
         </div>
     </div>
-    <div class="container">
-        <h2>Some random information.</h2>
-        <div class="box">
-            <div>Box</div>
-            some subtext under an image
+    <div id="facts" class="container-col">
+        <div class="heading">
+            <h2>Did you know?</h2>
         </div>
-        <div class="box">
-            <div>Box</div>
-            some subtext under an image
-        </div>
-        <div class="box">
-            <div>Box</div>
-            some subtext under an image
-        </div>
-        <div class="box">
-            <div>Box</div>
-            some subtext under an image
+        <div class="container-box">
+            <div class="box">
+                <img class="border-blue" src="./img/tiger.jpg" alt="Image of a tiger">
+                A house cat’s genome is 95.6 percent tiger.
+            </div>
+            <div class="box">
+                <img class="border-blue" src="./img/cat-eyes.png" alt="Image of a cat eyes">
+                Cats are nearsighted.
+            </div>
+            <div class="box">
+                <img class="border-blue" src="./img/cat-licking.jpg" alt="Image of a cat licking">
+                Cats have 230 bones, more than humans.
+            </div>
+            <div class="box">
+                <img class="border-blue" src="./img/cat-cat.jpg" alt="Image of a cat">
+                Some cats have more than 18 toes.
+            </div>
         </div>
     </div>
-    <div class="container">
-        <p class="quote">Some inspiring text, quotes or a testimonial goes here and it's a bit long.</p>
-        <p class="author">The Name</p>
+    <div id="quote" class="container-col light">
+        <div class="center">
+            <p class="quote">I had been told that the training procedure with cats was difficult. It’s not. Mine had me trained in two days.</p>
+            <p class="author">- Bill Dana</p>
+        </div>
     </div>
 
-    <div class="container">
-        <div class="msg-box">
-           <p class="text bold">Call to action!</p>
-           <p>Sign up for our products by clicking button on the right.</p>
-           <button>Sign up</button>
+    <div id="adopt" class="container-col">
+        <div class="msg-box blue border-blue">
+            <div>
+                <p class="text-bold">Please!</p>
+                <p>Adopt a cat today! They need the love.</p>
+            </div>
+            <div>
+                <button class="blue border-light">Click</button>
+            </div>
         </div>
     </div>
-    <footer>
-        Designed and created by Winnie 2023
+    <footer class="dark">
+        Designed and created by <a href="https://winsri.tech-alarm.com/" target="_blank">Winnie</a> | <a href="https://github.com/WinSanSri/" target="_blank">GitHub</a>
     </footer>
     
 </body>
